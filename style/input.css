@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind variants;
+@tailwind utilities;
+
+h1, h2,h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+#hero{
+    background-image: url(../images/bg-hero-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+p{
+    @apply my-4;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
